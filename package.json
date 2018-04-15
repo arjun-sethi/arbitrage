@@ -14,7 +14,7 @@
     }
   ],
   "scripts": {
-    "preinstall": "git submodule update --init --recursive && cd ./opportunity-finder && npm install ",
+    "preinstall": "sh pre.sh",
     "start": "sh start.sh"
   },
   "devDependencies": {},
