@@ -1,0 +1,26 @@
+{
+  "name": "arbitrage",
+  "version": "1.0.0",
+  "homepage": "https://github.com/arjun-sethi/arbitrage",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arjun-sethi/arbitrage.git"
+  },
+  "bugs": "https://github.com/arjun-sethi/arbitrage/issues",
+  "description": "This runs the entire senior design project together",
+  "contributors": [
+    {
+      "name": "Arjun Sethi"
+    }
+  ],
+  "scripts": {
+    "preinstall": "cd ./binance-atom && npm install && cd ../bitfinex-atom && npm install && cd ../opportunity-finder && npm install && cd ../sentinel && npm install",
+    "start": "sh ./start.sh"
+  },
+  "devDependencies": {
+
+  },
+  "dependencies": {
+
+  }
+}

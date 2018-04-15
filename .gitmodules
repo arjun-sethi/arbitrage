@@ -1,0 +1,12 @@
+[submodule "sentinel"]
+	path = sentinel
+	url = https://github.com/jaybutera/sentinel
+[submodule "binance-atom"]
+	path = binance-atom
+	url = https://github.com/jaybutera/binance-atom
+[submodule "bitfinex-atom"]
+	path = bitfinex-atom
+	url = https://github.com/jaybutera/bitfinex-atom
+[submodule "opportunity-finder"]
+	path = opportunity-finder
+	url = https://github.com/jaybutera/opportunity-finder
