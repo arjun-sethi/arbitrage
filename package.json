@@ -14,13 +14,9 @@
     }
   ],
   "scripts": {
-    "preinstall": "cd ./binance-atom && npm install && cd ../bitfinex-atom && npm install && cd ../opportunity-finder && npm install && cd ../sentinel && npm install",
-    "start": "sh ./start.sh"
+    "preinstall": "git submodule update --init --recursive && cd ./opportunity-finder && npm install ",
+    "start": "sh start.sh"
   },
-  "devDependencies": {
-
-  },
-  "dependencies": {
-
-  }
+  "devDependencies": {},
+  "dependencies": {}
 }
